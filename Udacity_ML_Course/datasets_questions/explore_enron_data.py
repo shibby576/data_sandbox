@@ -1,3 +1,4 @@
+
 #!/usr/bin/python
 
 """ 
@@ -16,7 +17,33 @@
 """
 
 import pickle
+import numpy as np
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
+enron_array = np.array(enron_data)
+
+#number of data points
+print (len(enron_data))
+
+#number of features per person
+print (len(enron_data.values()[1]))
+
+#count then number of "persons of interest" in the data set
+counter =0
+for i in enron_data:
+    if enron_data[i]['poi']==1:
+        counter +=1
+
+
+
+
+
+
+
+
+
+
+print("Total number of POIs: ", str(counter))
+
 
 
