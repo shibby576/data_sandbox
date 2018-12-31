@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import sys
 sys.path.append("../tools/")
 from feature_format import featureFormat, targetFeatureSplit
-
+from sklearn.preprocessing import MinMaxScaler
 
 
 
@@ -44,6 +44,9 @@ data_dict = pickle.load( open("../final_project/final_project_dataset.pkl", "r")
 data_dict.pop("TOTAL", 0)
 
 
+
+
+
 ### the input features we want to use 
 ### can be any key in the person-level dictionary (salary, director_fees, etc.) 
 feature_1 = "salary"
@@ -53,6 +56,24 @@ poi  = "poi"
 features_list = [poi, feature_1, feature_2]
 data = featureFormat(data_dict, features_list )
 poi, finance_features = targetFeatureSplit( data )
+
+#create lists of features to be scaled
+sal = []
+opt = []
+for f1, f2 in finance_features:
+    sal.append(f1)
+    opt.append(f2)
+comb = zip(sal, opt)
+
+#Scale features
+scaler = MinMaxScaler()
+scaler.fit(comb)
+
+MinMaxScaler(copy=True, feature_range=(0, 1))
+
+#print transformed feature values
+print('transformed values ' +  str(scaler.transform([[200000.0,1000000.0]])))
+
 
 
 ### in the "clustering with 3 features" part of the mini-project,
