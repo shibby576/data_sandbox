@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8890a6d1-ebbc-44f5-9006-b88a180d2f1d" name="Default" comment="" />
+    <list default="true" id="8890a6d1-ebbc-44f5-9006-b88a180d2f1d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="eigenfaces.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pca/eigenfaces.py">
+      <file leaf-file-name="validate_poi.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validation/validate_poi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
-              <folding>
-                <element signature="e#494#515#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="660">
+              <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dt_author_id.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decision_tree/dt_author_id.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="42" lean-forward="true" selection-start-line="23" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -32,11 +40,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pca/eigenfaces.py" />
+        <option value="$PROJECT_DIR$/validation/validate_poi.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="102" />
+    <option name="x" value="201" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="987" />
@@ -59,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.eigenfaces">
+  <component name="RunManager" selected="Python.validate_poi">
     <configuration name="eigenfaces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Udacity_ML_Course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,12 +105,32 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="validate_poi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Udacity_ML_Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/validation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validation/validate_poi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.find_signature" />
       <item itemvalue="Python.eigenfaces" />
+      <item itemvalue="Python.validate_poi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.validate_poi" />
         <item itemvalue="Python.eigenfaces" />
         <item itemvalue="Python.find_signature" />
       </list>
@@ -125,11 +154,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546626024789</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Validate_poi file">
+      <created>1546896254713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546896254713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="23" width="1400" height="987" extended-state="0" />
+    <frame x="201" y="23" width="1400" height="987" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -157,9 +193,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Played with the Eigenfaces code and PCA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Played with the Eigenfaces code and PCA" />
+    <MESSAGE value="Updated Validate_poi file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Validate_poi file" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pca/eigenfaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+          <folding>
+            <element signature="e#494#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feature_selection/find_signature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -181,6 +228,20 @@
           <folding>
             <element signature="e#494#515#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decision_tree/dt_author_id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="42" lean-forward="true" selection-start-line="23" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation/validate_poi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
     </entry>
